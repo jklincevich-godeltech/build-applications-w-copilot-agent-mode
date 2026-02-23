@@ -1,9 +1,9 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
+
     {
-      "name": "Launch Django Backend",
+         npx create-react-app . --use-npm --prefix octofit-tracker/frontend   "name": "Launch Django Backend",
       "type": "python",
       "request": "launch",
       "program": "${workspaceFolder}/octofit-tracker/backend/manage.py",

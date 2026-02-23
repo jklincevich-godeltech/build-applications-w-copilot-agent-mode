@@ -1,0 +1,102 @@
+body {
+  background: linear-gradient(180deg, #e8f4ff 0%, #f6fbff 60%, #ffffff 100%);
+  color: #18324d;
+}
+
+.app-shell {
+  background-color: #ffffff;
+  border: 1px solid #d6e9fb;
+  border-radius: 14px;
+  box-shadow: 0 10px 26px rgba(20, 56, 92, 0.1);
+}
+
+.app-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.app-brand-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #b8dbf7;
+  background-color: #f2f9ff;
+  padding: 0.25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0f4c81;
+}
+
+a {
+  color: #0b63a9;
+}
+
+a:hover {
+  color: #084e86;
+}
+
+.app-nav {
+  background-color: #eef7ff;
+  border: 1px solid #c7e4fb;
+  border-radius: 12px;
+  padding: 0.45rem;
+}
+
+.app-nav .nav-link {
+  color: #0f4c81;
+  font-weight: 600;
+  border-radius: 9px;
+}
+
+.app-nav .nav-link:hover {
+  background-color: #d9ecfb;
+  color: #083d6b;
+}
+
+.app-nav .nav-link.active {
+  background-color: #0f73c7;
+  color: #ffffff;
+}
+
+.btn,
+button {
+  background-color: #0f73c7;
+  border-color: #0f73c7;
+  color: #ffffff;
+}
+
+.btn:hover,
+button:hover {
+  background-color: #0c5fa5;
+  border-color: #0c5fa5;
+}
+
+.table {
+  border-color: #bfdcf4;
+}
+
+.table thead th {
+  background-color: #d6ebfb;
+  color: #0d4678;
+  border-bottom-color: #b4d7f2;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f3f9ff;
+}
+
+.list-group-item {
+  background-color: #f8fcff;
+  color: #18324d;
+  border-color: #d6e9fb;
+}
